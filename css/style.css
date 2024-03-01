@@ -123,6 +123,7 @@ body {
 .header__btn img {
   background: #ffffff;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -433,6 +434,7 @@ body {
 .news__part1 img:first-child {
   padding-bottom: 10px;
 }
+
 .message__container:nth-child(2) {
   margin: 0 18px;
 }
@@ -483,6 +485,7 @@ body {
 .logo__footer p {
   color: #ffffff;
 }
+
 .contacts__namber {
   font-family: "Roboto";
   margin-bottom: 15px;
