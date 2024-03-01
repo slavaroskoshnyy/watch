@@ -17,8 +17,6 @@ body {
    max-width: 1366px;
 }
 
-;
-
 .wrapper {
    min-height: 100%;
    overflow: hidden;
@@ -27,22 +25,15 @@ body {
    background: #FDFDFB;
 }
 
-;
-
-
 .container {
    max-width: 1210px;
    padding: 0 20px;
    margin: 0px auto;
 }
 
-;
-
 .content {
    flex: 1 1 auto;
 }
-
-;
 
 .btn {
    width: 205px;
@@ -54,7 +45,6 @@ body {
    letter-spacing: 0.05em;
    text-transform: uppercase;
    color: #ffffff;
-
 }
 
 .header {
@@ -65,8 +55,6 @@ body {
       justify-content: space-between;
       align-items: center;
    }
-
-   &__menu {}
 
    &__icons {
       width: 99px;
@@ -79,15 +67,11 @@ body {
          background: #ffffff;
       }
    }
-
-   &__icon {}
 }
 
 .logo {
    display: flex;
    align-items: center;
-
-   &__img {}
 
    &__text {
       margin-left: 8px;
@@ -97,10 +81,6 @@ body {
 }
 
 .menu {
-
-   &__icon {}
-
-   &__body {}
 
    &__list {
       width: 422px;
@@ -113,12 +93,9 @@ body {
    }
 }
 
-.main {}
-
 .home {
    height: 768px;
    background: url(../img/watch_main.png) 635px 0 no-repeat, url(../img/Ellipse.png) 448px 0 no-repeat;
-
 
    &__description {
 
@@ -227,7 +204,7 @@ body {
 
    &__btn {
       position: relative;
-		align-self: flex-end;
+      align-self: flex-end;
       width: 104px;
       height: 15px;
       background: #ffffff;
@@ -264,8 +241,6 @@ body {
       align-items: center;
 
    }
-
-   &__item {}
 
    &__subtitle {
       margin-bottom: 10px;
@@ -308,9 +283,9 @@ body {
    &__description {
       padding: 20px 0px 0px 0px;
 
-		a {
-			color: $black;
-		}
+      a {
+         color: $black;
+      }
 
       p {
          position: relative;
@@ -326,7 +301,6 @@ body {
          }
       }
    }
-
 }
 
 .catalog {
@@ -358,8 +332,6 @@ body {
       display: flex;
       flex-direction: column;
       background: #FDFDFB;
-
-
    }
 
    &__item {
@@ -378,12 +350,10 @@ body {
       font-size: 16px;
       line-height: 150%;
       color: $darK;
-
    }
 
    &__btn {
       background: #D4B098;
-
    }
 
    &__switch {
@@ -428,19 +398,15 @@ body {
 
    &__row {
       display: flex;
-      // flex-wrap: wrap;
       align-items: center;
       justify-content: center;
       margin: 0px -35px;
    }
 
-
    &__columns1 {
       flex: 0 1 50%;
       padding: 0px 35px;
    }
-
-   &__item {}
 
    &__title {
       font-size: 32px;
@@ -464,15 +430,12 @@ body {
 
    &__message {
       display: flex;
-
-
    }
 
    &__columns2 {
       flex: 0 1 50%;
       padding: 0px 35px;
       display: flex;
-
    }
 
    &__part1 {
@@ -484,15 +447,6 @@ body {
          }
       }
    }
-
-   &__part2 {}
-}
-
-.container {}
-
-.new {
-
-   &__row {}
 }
 
 .message {
@@ -514,7 +468,6 @@ body {
       display: flex;
       justify-content: space-around;
       color: #FFFFFFBF;
-
    }
 
    &__colum {
@@ -523,7 +476,6 @@ body {
 }
 
 .colum {
-
 
    &__nav {
       display: flex;
@@ -566,10 +518,6 @@ body {
          color: #ffffff;
       }
    }
-
-   &__img {}
-
-   &__text {}
 }
 
 .contacts {
@@ -580,5 +528,4 @@ body {
       font-size: 12px;
       color: rgba(255, 255, 255, 0.75);
    }
-
 }
