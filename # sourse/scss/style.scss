@@ -1,5 +1,5 @@
 // Файл обнуляющих стилей
-@import "_nullstyle";
+@use"_nullstyle";
 
 // Шрифты
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic');
@@ -14,13 +14,14 @@ $darK: #444240;
 
 body {
    font-family: Playfair Display;
-   max-width: 1366px;
+   // max-width: 1366px;
 }
 
 .wrapper {
    min-height: 100%;
    overflow: hidden;
    display: flex;
+   margin: 0 auto;
    flex-direction: column;
    background: #FDFDFB;
 }
@@ -304,6 +305,7 @@ body {
 }
 
 .catalog {
+
 
    &__row {
       width: 100%;
